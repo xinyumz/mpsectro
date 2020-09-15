@@ -1,0 +1,234 @@
+body {
+  background-color:rgb(234, 238, 241);
+  /*background-image: url(images/Concrete.png);
+  background-repeat:repeat;*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+a {
+  text-decoration-line: none;
+}
+.page {
+  margin-top: 4rem;
+}
+@media (max-width: 1200px) {
+  .page {
+      margin-top: 4rem;
+  }
+}
+@media (max-width: 1050px) {
+  .page {
+      margin-top: 3.75rem;
+  }
+}
+@media (max-width: 900px) {
+  .page {
+      margin-top: 3.5rem;
+  }
+}
+@media (max-width: 750px) {
+  .page {
+      margin-top: 3.25rem;
+  }
+}
+@media (max-width: 500px) {
+  .page {
+      margin-top: 3rem;
+  }
+}
+
+/*Styles for front page*/
+.frontblock {
+  background-size: cover; 
+  height: 52rem;
+  text-align: center;
+  color: rgb(188, 215, 226);
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.welcome {
+  padding-top: 7.75rem;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+  text-shadow: 2px 2px rgb(41, 61, 61);
+}
+.name-back {
+  margin: 1.5rem 16rem 1.5rem 16rem;
+  background-color: rgba(161, 160, 160, 0.4);
+}
+.name {
+  padding: 2.5rem 0rem 2.5rem 0rem;
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  border-style: solid solid solid solid;
+  border-color: rgb(103, 114, 114);
+  border-width: 0.5rem;
+}
+.name-cn {
+  font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;;
+}
+.name2 {
+  padding-top: 0.5rem;
+  font-size: 2.75rem;
+  color: rgb(255, 255, 255);
+}
+.selfintro {
+  margin-top: 3rem;
+  line-height: 1.7rem;
+  color: white;
+  text-shadow: 1.5px 1.5px rgb(41, 61, 61);
+}
+@media (max-width: 1420px) {
+  .name {
+      font-size: 4.5rem;
+  }
+}
+@media (max-width: 1340px) {
+  .name-back {
+      margin: 1.5rem 15rem 1.5rem 15rem;
+  }
+}
+@media (max-width: 1280px) {
+  .welcome {
+      font-size: 3.5rem;
+  }
+  .name {
+      font-size: 4rem;
+  }
+}
+@media (max-width: 1200px) {
+  .name-back {
+      margin: 1.5rem 13rem 1.5rem 13rem;
+  }
+}
+@media (max-width: 1140px) {
+  .welcome {
+      padding-top: 8.75rem;
+      padding-bottom: 1.5rem;
+      font-size: 3rem;
+  }
+  .name {
+      font-size: 3.5rem;
+  }
+}
+@media (max-width: 1045px) {
+  .welcome {
+      padding-top: 9.5rem;
+      font-size: 2.5rem;
+  }
+  .name {
+      font-size: 3rem;
+  }
+  .name2 {
+      font-size: 2.5rem;
+  }
+}
+@media (max-width: 980px) {
+  .frontblock {
+      font-size: 1rem;
+      height: 40rem;
+  }
+  .welcome {
+      padding-top: 5.75rem;
+  }
+  .name-back {
+      margin: 1.5rem 12rem 1.5rem 12rem;
+  }
+  .name {
+      padding: 2rem 0rem 2rem 0rem;
+  }
+}
+@media (max-width: 920px) {
+  .welcome {
+      font-size: 2rem;
+      padding-top: 6rem;
+  }
+  .name {
+      font-size: 2.5rem;
+  }
+  .name2 {
+      font-size: 2rem;
+  }
+}
+@media (max-width: 850px) {
+  .name-back {
+      margin: 1.5rem 10rem 1.5rem 10rem;
+  }
+  .name {
+      padding: 1.7rem 0rem 1.7rem 0rem;
+  }
+}
+@media (max-width: 800px) {
+  .welcome {
+    padding-top: 4.75rem;
+}
+  .name-cn {
+      display: block;
+  }
+}
+@media (max-width: 640px) {
+  .name-back {
+      margin: 1.5rem 8rem 1.5rem 8rem;
+  }
+  .name {
+      padding: 1.5rem 0rem 1.5rem 0rem;
+  }
+}
+@media (max-width: 560px) {
+  .welcome {
+      font-size: 1.8rem;
+  }
+  .name {
+      font-size: 2.2rem;
+  }
+  .name2 {
+      font-size: 1.8rem;
+  }
+}
+@media (max-width: 520px) {
+  .frontblock {
+    height: 35rem;
+}
+  .welcome {
+      font-size: 1.6rem;
+      padding-top: 3.75rem;
+  }
+  .name {
+      font-size: 2rem;
+      padding: 1.2rem 0rem 1.2rem 0rem;
+  }
+  .name2 {
+      font-size: 1.6rem;
+  }
+}
+@media (max-width: 500px) {
+  .welcome {
+      font-size: 1.5rem;
+      padding-top: 3.5rem;
+  }
+  .name-back {
+      margin: 1.3rem 6rem 1.3rem 6rem;
+  }
+  .name {
+      font-size: 1.8rem;
+      padding: 1rem 0rem 1rem 0rem;
+  }
+  .name2 {
+      font-size: 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .frontblock {
+    font-size: 0.9rem;
+}
+  .selfintro {
+    margin-top: 2rem;
+  }
+}
+
+
+
+
+
